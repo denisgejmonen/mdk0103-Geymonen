@@ -32,7 +32,6 @@ class main {
     }
 }
 
-// -------- КЛАССЫ КАМНЕЙ ---------
 class Stone {
     public String name;
     public double weight;
@@ -58,7 +57,6 @@ class SemiPreciousStone extends Stone {
     public SemiPreciousStone(String n, double w, double p, double t) { super(n,w,p,t); }
 }
 
-// -------- КЛАСС ОЖЕРЕЛЬЯ ---------
 class Necklace {
     private java.util.ArrayList<Stone> stones = new java.util.ArrayList<>();
     public void addStone(Stone s) { stones.add(s); }
